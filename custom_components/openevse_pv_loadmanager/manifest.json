@@ -1,0 +1,11 @@
+{
+  "domain": "openevse_pv_loadmanager",
+  "name": "OpenEVSE PV Load Manager",
+  "codeowners": ["@Obili69"],
+  "config_flow": true,
+  "dependencies": ["mqtt"],
+  "documentation": "https://github.com/Obili69/OpenEVSE_INTEGRATION_OBR",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "1.0.0"
+}
