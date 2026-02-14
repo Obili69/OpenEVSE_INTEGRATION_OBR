@@ -7,7 +7,7 @@ from homeassistant.core import HomeAssistant
 
 from .const import CONF_NUM_STATIONS, DOMAIN
 
-PLATFORMS = ["sensor", "switch", "number"]
+PLATFORMS = ["switch"]
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
